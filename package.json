@@ -10,7 +10,7 @@
   "homepage": "https://github.com/ocavue/pkg-name#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ocavue/pkg-name.git"
+    "url": "https://github.com/ocavue/pkg-name.git"
   },
   "bugs": "https://github.com/ocavue/pkg-name/issues",
   "keywords": [],
