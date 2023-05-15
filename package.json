@@ -2,7 +2,7 @@
   "name": "pkg-name",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@8.4.0",
+  "packageManager": "pnpm@8.5.1",
   "description": "",
   "author": "ocavue <ocavue@gmail.com>",
   "license": "MIT",
@@ -48,7 +48,7 @@
   "devDependencies": {
     "@antfu/ni": "^0.21.3",
     "@ocavue/eslint-config": "^0.4.7",
-    "@types/node": "^18.16.5",
+    "@types/node": "^18.16.9",
     "eslint": "^8.40.0",
     "esno": "^0.16.3",
     "prettier": "^2.8.8",
