@@ -40,6 +40,7 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "lint": "eslint .",
+    "fix": "eslint --fix . && prettier --write .",
     "prepublishOnly": "nr build",
     "start": "esno src/index.ts",
     "test": "vitest",
@@ -47,7 +48,7 @@
   },
   "devDependencies": {
     "@antfu/ni": "^0.21.3",
-    "@ocavue/eslint-config": "^0.4.7",
+    "@ocavue/eslint-config": "^1.1.0",
     "@types/node": "^18.16.16",
     "eslint": "^8.41.0",
     "esno": "^0.16.3",
