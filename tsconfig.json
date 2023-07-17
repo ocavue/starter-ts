@@ -3,10 +3,12 @@
     "target": "es2018",
     "module": "esnext",
     "lib": ["esnext"],
-    "moduleResolution": "node",
+    "moduleResolution": "Bundler",
     "esModuleInterop": true,
     "strict": true,
     "strictNullChecks": true,
+    "verbatimModuleSyntax": true,
+    "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "skipDefaultLibCheck": true
