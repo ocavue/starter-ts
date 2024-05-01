@@ -2,7 +2,7 @@
   "name": "pkg-name",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@8.15.6",
+  "packageManager": "pnpm@8.15.8",
   "description": "",
   "author": "ocavue <ocavue@gmail.com>",
   "license": "MIT",
@@ -48,15 +48,15 @@
   },
   "devDependencies": {
     "@antfu/ni": "^0.21.12",
-    "@ocavue/eslint-config": "^1.4.3",
-    "@types/node": "^20.12.5",
+    "@ocavue/eslint-config": "^1.5.0",
+    "@types/node": "^20.12.8",
     "eslint": "^8.57.0",
     "esno": "^4.7.0",
     "prettier": "^3.2.5",
     "tsup": "^8.0.2",
-    "typescript": "^5.4.4",
-    "vite": "^4.5.0",
-    "vitest": "^1.4.0"
+    "typescript": "^5.4.5",
+    "vite": "^4.5.3",
+    "vitest": "^1.5.3"
   },
   "renovate": {
     "extends": [
