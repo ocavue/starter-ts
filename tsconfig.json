@@ -3,6 +3,7 @@
     "target": "es2018",
     "module": "esnext",
     "lib": ["esnext"],
+    "allowJs": true,
     "moduleResolution": "Bundler",
     "esModuleInterop": true,
     "strict": true,
@@ -12,5 +13,6 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "skipDefaultLibCheck": true
-  }
+  },
+  "include": ["src", "test", "./*.ts", "./*.js"]
 }
