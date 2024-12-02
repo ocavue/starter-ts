@@ -44,7 +44,7 @@
     "prepublishOnly": "pnpm run build",
     "start": "esno src/index.ts",
     "test": "vitest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc -b"
   },
   "devDependencies": {
     "@ocavue/eslint-config": "^2.11.0",

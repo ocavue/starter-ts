@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es2018",
+    "target": "es2020",
     "module": "esnext",
     "lib": ["esnext"],
+    "outDir": "node_modules/.cache/ts-out",
     "allowJs": true,
     "moduleResolution": "Bundler",
     "esModuleInterop": true,
+    "composite": true,
     "strict": true,
     "strictNullChecks": true,
     "verbatimModuleSyntax": true,
