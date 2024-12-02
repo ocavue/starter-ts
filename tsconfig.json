@@ -7,7 +7,7 @@
     "allowJs": true,
     "moduleResolution": "Bundler",
     "esModuleInterop": true,
-    "composite": true,
+    "composite": false,
     "strict": true,
     "strictNullChecks": true,
     "verbatimModuleSyntax": true,
