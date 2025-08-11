@@ -2,8 +2,8 @@
   "name": "pkg-name",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@9.15.4",
-  "description": "",
+  "packageManager": "pnpm@10.14.0",
+  "description": "TypeScript starter kit",
   "author": "ocavue <ocavue@gmail.com>",
   "license": "MIT",
   "funding": "https://github.com/sponsors/ocavue",
@@ -46,19 +46,14 @@
     "typecheck": "tsc -b"
   },
   "devDependencies": {
-    "@ocavue/eslint-config": "^2.12.2",
-    "@ocavue/tsconfig": "^0.2.0",
-    "@types/node": "^20.17.5",
-    "eslint": "^9.17.0",
-    "prettier": "^3.4.2",
-    "tsup": "^8.3.6",
+    "@ocavue/eslint-config": "^3.3.1",
+    "@ocavue/tsconfig": "^0.3.7",
+    "@types/node": "^20.19.10",
+    "eslint": "^9.33.0",
+    "prettier": "^3.6.2",
+    "tsup": "^8.5.0",
     "typescript": "^5.7.2",
-    "vite": "^6.0.11",
-    "vitest": "^3.0.4"
-  },
-  "renovate": {
-    "extends": [
-      "github>ocavue/config-renovate"
-    ]
+    "vite": "^6.3.5",
+    "vitest": "^3.2.4"
   }
 }
