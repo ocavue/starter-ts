@@ -2,8 +2,8 @@
   "name": "pkg-name",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@9.15.4",
-  "description": "",
+  "packageManager": "pnpm@10.14.0",
+  "description": "TypeScript starter kit",
   "author": "ocavue <ocavue@gmail.com>",
   "license": "MIT",
   "funding": "https://github.com/sponsors/ocavue",
@@ -55,10 +55,5 @@
     "typescript": "^5.7.2",
     "vite": "^6.0.11",
     "vitest": "^3.0.4"
-  },
-  "renovate": {
-    "extends": [
-      "github>ocavue/config-renovate"
-    ]
   }
 }
