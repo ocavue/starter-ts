@@ -1,4 +1,1 @@
-packages:
-  - playground
-  - examples/*
-  - packages/*
+ignoreWorkspaceRootCheck: true
