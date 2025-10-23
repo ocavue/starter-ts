@@ -33,14 +33,14 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "scripts": {
     "build": "tsdown",
     "dev": "tsdown --watch",
     "lint": "eslint .",
     "fix": "eslint --fix . && prettier --write .",
-    "prepublishOnly": "pnpm run build",
     "test": "vitest",
     "typecheck": "tsc -b"
   },
