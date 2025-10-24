@@ -49,10 +49,10 @@
     "@ocavue/eslint-config": "^3.6.0",
     "@ocavue/tsconfig": "^0.5.0",
     "@types/node": "^20.19.10",
-    "eslint": "^9.36.0",
+    "eslint": "^9.38.0",
     "prettier": "^3.6.2",
     "tsup": "^8.5.0",
-    "typescript": "^5.9.2",
+    "typescript": "^5.9.3",
     "vite": "^7.1.12",
     "vitest": "^3.2.4"
   }
