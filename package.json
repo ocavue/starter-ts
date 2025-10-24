@@ -21,7 +21,6 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "require": "./dist/index.js",
       "import": "./dist/index.js"
     }
   },
@@ -34,14 +33,14 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
+    "build": "tsdown",
+    "dev": "tsdown --watch",
     "lint": "eslint .",
     "fix": "eslint --fix . && prettier --write .",
-    "prepublishOnly": "pnpm run build",
     "test": "vitest",
     "typecheck": "tsc -b"
   },
@@ -49,11 +48,11 @@
     "@ocavue/eslint-config": "^3.6.0",
     "@ocavue/tsconfig": "^0.5.0",
     "@types/node": "^20.19.10",
-    "eslint": "^9.36.0",
+    "eslint": "^9.38.0",
     "prettier": "^3.6.2",
-    "tsup": "^8.5.0",
-    "typescript": "^5.9.2",
+    "tsdown": "^0.15.9",
+    "typescript": "^5.9.3",
     "vite": "^7.1.12",
-    "vitest": "^3.2.4"
+    "vitest": "^4.0.2"
   }
 }
