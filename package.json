@@ -1,7 +1,7 @@
 {
   "name": "pkg-name",
   "type": "module",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "packageManager": "pnpm@10.24.0",
   "description": "TypeScript starter kit",
   "author": "ocavue <ocavue@gmail.com>",
