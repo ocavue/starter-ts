@@ -48,7 +48,7 @@
     "@ocavue/eslint-config": "^3.13.0",
     "@ocavue/tsconfig": "^0.6.3",
     "@types/node": "^20.19.10",
-    "eslint": "^9.39.3",
+    "eslint": "^10.0.1",
     "prettier": "^3.8.1",
     "tsdown": "^0.20.3",
     "typescript": "^5.9.3",
