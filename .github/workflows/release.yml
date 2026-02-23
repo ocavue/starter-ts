@@ -9,7 +9,7 @@ jobs:
   version:
     runs-on: ubuntu-latest
     steps:
-      - uses: googleapis/release-please-action@v4
+      - uses: googleapis/release-please-action@v4.0.0
         id: release-please
         with:
           release-type: node
@@ -24,7 +24,7 @@ jobs:
       id-token: write
     if: ${{ needs.version.outputs.release_created }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5.0.0
 
       - uses: ./.github/actions/setup
 
