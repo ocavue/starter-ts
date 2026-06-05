@@ -2,14 +2,14 @@
 
 [![NPM version](https://img.shields.io/npm/v/@ocavue/starter-ts?color=a1b858&label=)](https://www.npmjs.com/package/@ocavue/starter-ts)
 
-A minimal [TypeScript](https://www.typescriptlang.org/) library starter — bundling, testing, linting, formatting, and automated npm releases, all preconfigured.
+A minimal [TypeScript](https://www.typescriptlang.org/) library starter with bundling, testing, linting, formatting, and automated npm releases, all preconfigured.
 
 > **Using this template?** Click [**Use this template**](https://github.com/ocavue/starter-ts/generate), then rename `name`, `description`, `author`, `repository`, `homepage`, and `bugs` in `package.json` and write your code in `src/index.ts`.
 
 ## Project structure
 
-- `src/` — source code, with co-located [Vitest](https://vitest.dev/) tests (`*.test.ts`)
-- `dist/` — bundled output (ESM + type declarations), built by [tsdown](https://tsdown.dev/)
+- `src/`: source code, with co-located [Vitest](https://vitest.dev/) tests (`*.test.ts`)
+- `dist/`: bundled output (ESM + type declarations), built by [tsdown](https://tsdown.dev/)
 
 ## Scripts
 
@@ -26,7 +26,7 @@ Local development needs [Node.js](https://nodejs.org/) v22+ and [pnpm](https://p
 
 ## Publishing
 
-Releases are automated with [release-please](https://github.com/googleapis/release-please) and npm [trusted publishing](https://docs.npmjs.com/trusted-publishers/) (OIDC) — no tokens to manage.
+Releases are automated with [release-please](https://github.com/googleapis/release-please) and npm [trusted publishing](https://docs.npmjs.com/trusted-publishers/) (OIDC). No tokens to manage.
 
 1. **First release (manual).** OIDC can't create a brand-new package, so publish the first version by hand:
 
