@@ -39,8 +39,12 @@
   "scripts": {
     "build": "tsdown",
     "dev": "tsdown --watch",
-    "lint": "eslint .",
-    "fix": "eslint --fix . && oxfmt",
+    "lint": "pnpm run lint:eslint && pnpm run lint:oxfmt",
+    "lint:oxfmt": "oxfmt --check",
+    "lint:eslint": "eslint",
+    "fix": "pnpm run fix:oxfmt && pnpm run fix:eslint",
+    "fix:oxfmt": "oxfmt",
+    "fix:eslint": "eslint --fix",
     "test": "vitest",
     "typecheck": "tsc -b"
   },
