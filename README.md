@@ -1,6 +1,6 @@
-# ocavue-starter-ts
+# @ocavue/starter-ts
 
-[![NPM version](https://img.shields.io/npm/v/ocavue-starter-ts?color=a1b858&label=)](https://www.npmjs.com/package/ocavue-starter-ts)
+[![NPM version](https://img.shields.io/npm/v/@ocavue/starter-ts?color=a1b858&label=)](https://www.npmjs.com/package/@ocavue/starter-ts)
 
 A minimal [TypeScript](https://www.typescriptlang.org/) library starter — bundling, testing, linting, formatting, and automated npm releases, all preconfigured.
 
@@ -34,7 +34,7 @@ Releases are automated with [release-please](https://github.com/googleapis/relea
    pnpm login && pnpm build && pnpm publish
    ```
 
-   An unscoped name is public by default; add `--access public` for a scoped name.
+   `publishConfig.access` is set to `public` in `package.json`, so the scoped package is published publicly.
 
 2. **Enable OIDC.** On [npmjs.com](https://www.npmjs.com/), open the package → **Settings → Trusted Publisher → GitHub Actions**, and set the workflow filename to `release.yml`.
 
