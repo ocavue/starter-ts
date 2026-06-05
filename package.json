@@ -1,5 +1,5 @@
 {
-  "name": "pkg-name",
+  "name": "@ocavue/starter-ts",
   "type": "module",
   "version": "0.0.1",
   "packageManager": "pnpm@11.5.0",
@@ -7,12 +7,12 @@
   "author": "ocavue <ocavue@gmail.com>",
   "license": "MIT",
   "funding": "https://github.com/sponsors/ocavue",
-  "homepage": "https://github.com/ocavue/pkg-name#readme",
+  "homepage": "https://github.com/ocavue/starter-ts#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ocavue/pkg-name.git"
+    "url": "https://github.com/ocavue/starter-ts.git"
   },
-  "bugs": "https://github.com/ocavue/pkg-name/issues",
+  "bugs": "https://github.com/ocavue/starter-ts/issues",
   "keywords": [],
   "sideEffects": false,
   "main": "./dist/index.js",
@@ -50,15 +50,18 @@
     "typecheck": "tsc -b"
   },
   "devDependencies": {
-    "@ocavue/eslint-config": "^4.5.9",
+    "@ocavue/eslint-config": "^4.5.0",
     "@ocavue/tsconfig": "^0.7.0",
-    "@types/node": "^22.19.11",
-    "eslint": "^10.4.1",
-    "knip": "^6.15.0",
+    "@types/node": "^22.19.19",
+    "eslint": "^10.0.0",
+    "knip": "^6.0.0",
     "oxfmt": "^0.53.0",
-    "tsdown": "^0.22.1",
+    "tsdown": "^0.22.0",
     "typescript": "^6.0.3",
-    "vite": "^8.0.13",
-    "vitest": "^4.1.8"
+    "vite": "^8.0.0",
+    "vitest": "^4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
