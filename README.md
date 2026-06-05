@@ -1,4 +1,4 @@
-# @ocavue/starter-ts
+# TypeScript Library Starter
 
 [![NPM version](https://img.shields.io/npm/v/@ocavue/starter-ts?color=a1b858&label=)](https://www.npmjs.com/package/@ocavue/starter-ts)
 
