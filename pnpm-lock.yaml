@@ -36,7 +36,7 @@ importers:
         specifier: ^8.0.0
         version: 8.0.13(@types/node@22.19.19)(jiti@2.7.0)(yaml@2.9.0)
       vitest:
-        specifier: ^4.0.0
+        specifier: ^4.1.0
         version: 4.1.8(@types/node@22.19.19)(vite@8.0.13(@types/node@22.19.19)(jiti@2.7.0)(yaml@2.9.0))
 
 packages:
