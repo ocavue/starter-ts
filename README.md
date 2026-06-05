@@ -4,7 +4,7 @@
 
 A minimal [TypeScript](https://www.typescriptlang.org/) library starter with bundling, testing, linting, formatting, and automated npm releases, all preconfigured.
 
-> **Using this template?** Click [**Use this template**](https://github.com/ocavue/starter-ts/generate), then rename `name`, `description`, `author`, `repository`, `homepage`, and `bugs` in `package.json` and write your code in `src/index.ts`.
+> **Using this template?** Click [Use this template](https://github.com/ocavue/starter-ts/generate), rename the package in `package.json`, and write your code in `src/index.ts`.
 
 ## Project structure
 
@@ -31,14 +31,14 @@ Releases are automated with [release-please](https://github.com/googleapis/relea
 1. **First release (manual).** OIDC can't create a brand-new package, so publish the first version by hand:
 
    ```bash
-   pnpm login && pnpm build && pnpm publish
+   pnpm login
+   pnpm build
+   pnpm publish
    ```
-
-   `publishConfig.access` is set to `public` in `package.json`, so the scoped package is published publicly.
 
 2. **Enable OIDC.** On [npmjs.com](https://www.npmjs.com/), open the package → **Settings → Trusted Publisher → GitHub Actions**, and set the workflow filename to `release.yml`.
 
-3. **Future releases (automatic).** Push [Conventional Commits](https://www.conventionalcommits.org/) (`fix:`, `feat:`, …) to `master`; [release-please](https://github.com/googleapis/release-please) opens a release PR that bumps the version, updates the changelog, and publishes on merge.
+3. **Future releases (automatic).** Push [Conventional Commits](https://www.conventionalcommits.org/) (`fix:`, `feat:`, …) to your default branch; [release-please](https://github.com/googleapis/release-please) opens a release PR that bumps the version, updates the changelog, and publishes on merge.
 
 ## Sponsors
 
@@ -50,4 +50,4 @@ Releases are automated with [release-please](https://github.com/googleapis/relea
 
 ## License
 
-MIT
+[MIT](./LICENSE) © [ocavue](https://github.com/ocavue)
