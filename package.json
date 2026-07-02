@@ -2,7 +2,7 @@
   "name": "@ocavue/starter-ts",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@11.5.0",
+  "packageManager": "pnpm@11.9.0",
   "description": "TypeScript starter kit",
   "author": "ocavue <ocavue@gmail.com>",
   "license": "MIT",
@@ -50,16 +50,16 @@
     "typecheck": "tsc -b"
   },
   "devDependencies": {
-    "@ocavue/eslint-config": "^4.8.1",
+    "@ocavue/eslint-config": "^4.10.0",
     "@ocavue/tsconfig": "^0.7.1",
     "@types/node": "^22.19.19",
-    "eslint": "^10.4.0",
-    "knip": "^6.14.2",
-    "oxfmt": "^0.53.0",
-    "tsdown": "^0.22.0",
+    "eslint": "^10.4.1",
+    "knip": "^6.15.0",
+    "oxfmt": "^0.57.0",
+    "tsdown": "^0.22.1",
     "typescript": "^6.0.3",
-    "vite": "^8.0.14",
-    "vitest": "^4.1.7"
+    "vite": "^8.1.2",
+    "vitest": "^4.1.8"
   },
   "publishConfig": {
     "access": "public"
