@@ -2,7 +2,7 @@
   "name": "@ocavue/starter-ts",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@11.24.0",
+  "packageManager": "pnpm@12.3.4",
   "description": "TypeScript starter kit",
   "author": "ocavue <ocavue@gmail.com>",
   "license": "MIT",
